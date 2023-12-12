@@ -53,7 +53,7 @@ while var == 1 :
 
     if comm_input == "run" :
         print("To make the SSH Link data running , you must choose a datafile. ")
-        print('Whitch data do you want to remove? ')
+        print('Whitch data do you want to run? ')
         os.system('tree /F data')
         RUN_Input = input("Enter>>>")
         with open("data/" + RUN_Input, "r") as run:
